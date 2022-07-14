@@ -1,0 +1,15 @@
+.search-opened:not(.fixed-header) #title-search_fixed form{
+    border-radius: 0;
+    padding: 0 0 10px;
+}
+
+.search-opened .title-search-result{
+    border-radius: 0;
+    top: 74px;
+    flex-wrap: wrap;
+}
+
+.s-wrap{
+    width: 100%;
+    display: flex;
+}
