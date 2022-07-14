@@ -1,15 +1,219 @@
 .search-opened:not(.fixed-header) #title-search_fixed form{
     border-radius: 0;
-    padding: 0 0 10px;
+    padding: 0;
 }
 
 .search-opened .title-search-result{
     border-radius: 0;
-    top: 74px;
+    top: 64px;
     flex-wrap: wrap;
+    padding: 0;
+    background: #F8FAFC;
 }
 
 .s-wrap{
     width: 100%;
     display: flex;
+    padding: 20px;
+    overflow-x: hidden;
+}
+.search__aside {
+    width: 260px;
+    margin-right: 80px;
+}
+
+.search__title{
+    color: #222;
+    margin: 0;
+}
+.search__links{
+    margin-top: 5px;
+    display: block;
+}
+.search__clear-btn {
+    color: #FF6D00;
+    border-bottom: 0!important;
+}
+.bx-searchtitle .bx-input-group .bx-form-control{
+    padding-left: 25px;
+}
+
+
+.all_result {
+    position: sticky!important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    z-index: 1;
+    background: white;
+    text-align: center;
+}
+
+
+.searchGood {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ECECEC;
+    display: block;
+}
+.searchGood:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.searchGood__wrap{
+    display: flex;
+}
+.searchGood .sticker_wrap_mobile_list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchGood__img {
+    width: 84px;
+    min-width: 84px;
+    height: 84px;
+    margin-right: 12px;
+    background: #fff;
+}
+.searchGood__img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.sticker.sticker_installment {
+    border-radius: 3px;
+    margin: 0 10px 10px 0;
+}
+.sticker.sticker_installment:last-child{
+    margin-right: 0;
+}
+.searchGood__link{
+    font-size: 14px!important;
+}
+
+.searchGood .compare_item_button, .searchGood .wish_item{
+    margin-right: 0;
+}
+.searchGood .button_block {
+    margin-right: 10px;
+}
+
+.searchGood__view{
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+}
+.searchGood__info{
+    flex:1;
+    padding-right: 20px;
+}
+.searchGood .price_matrix_block *{
+    color: #222;
+    font-size: inherit;
+}
+.price_value{
+    font-size: 22px!important;
+    color: #222;
+}
+.price_old{
+    font-size: 14px!important;
+    text-decoration: line-through;
+    color: #222;
+    font-weight: normal;
+}
+.searchGood__bottom {
+    margin-top: 0;
+    align-items: center;
+    width: 50%;
+}
+.searchGood__brand__val{
+    color: #FF6D00!important;
+}
+.searchGood .price_matrix_block{
+    display: block;
+}
+.pagination{
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pagination__list{
+    flex-wrap:wrap;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .search-opened .title-search-result {
+        left: 60px;
+        right: 60px;
+    }
+}
+
+@media (max-width: 1200px){
+    .search__aside {
+        width: 220px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:1100px){
+    .search__aside {
+        width: 190px;
+    }
+}
+
+
+@media (max-width: 992px){
+    .search-opened .title-search-result {
+        top: 122px;
+    }
+    .s-wrap {
+        display: block;
+        padding: 20px 20px 55px;
+    }
+    .searchGood .compare_item_button, .searchGood .wish_item {
+        background-color: transparent;
+        margin-right: 0;
+    }
+    .searchGood__btns {
+        margin-top: 0;
+    }
+    .searchGood__bottom {
+        flex-direction: inherit;
+    }
+    .search__aside {
+        width: 100%;
+        margin-right: 0;
+    }
+    .search__main {
+        flex-grow: initial;
+    }
+    .all_result {
+        position: fixed!important;
+    }
+    .all_result{
+        padding: 8px;
+    }
+}
+@media (max-width: 600px){
+    .searchGood__wrap{
+        flex-wrap:wrap;
+    }
+    .searchGood__view{
+        width: 100%;
+    }
+    .searchGood__info{
+        padding-right: 0;
+    }
+    .searchGood__bottom{
+        width: 100%;
+        margin-left: 96px;
+        flex-wrap: wrap;
+    }
+    .searchGood .price_matrix_block{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pagination__list {
+        justify-content: center;
+    }
 }
