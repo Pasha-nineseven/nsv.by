@@ -7507,42 +7507,56 @@
 							</svg>
 						</i>
 					</div>
-					<div class="title-block logoblockmob col-sm-6 col-xs-3 pull-left"><a href="https://nsv.by/"><img
-								src="https://nsv.n3.by/upload/CNext/d40/gas6xpweg76961a2m59gpr1a8f3vq0q6.webp"
-								alt="nsv.n3.by" title="nsv.n3.by" /></a></div>
+					<div class="title-block logoblockmob col-sm-6 col-xs-3 pull-left">
+						<a href="https://nsv.by/">
+							<img src="https://nsv.n3.by/upload/CNext/d40/gas6xpweg76961a2m59gpr1a8f3vq0q6.webp"
+								alt="nsv.n3.by" title="nsv.n3.by" />
+						</a>
+					</div>
 					<div class="right-icons pull-right">
 						<div class="pull-right">
-							<div class="wrap_icon">
-								<button class="top-btn inline-search-show twosmallfont">
-									<i class="svg inline  svg-inline-search big" aria-hidden="true"><svg
-											xmlns="http://www.w3.org/2000/svg" width="21" height="21"
-											viewBox="0 0 21 21">
-											<defs>
-												<style>
-													.sscls-1 {
-														fill: #222;
-														fill-rule: evenodd;
-													}
-												</style>
-											</defs>
-											<path data-name="Rounded Rectangle 106" class="sscls-1"
-												d="M1590.71,131.709a1,1,0,0,1-1.42,0l-4.68-4.677a9.069,9.069,0,1,1,1.42-1.427l4.68,4.678A1,1,0,0,1,1590.71,131.709ZM1579,113a7,7,0,1,0,7,7A7,7,0,0,0,1579,113Z"
-												transform="translate(-1570 -111)" />
-										</svg>
-									</i> </button>
-							</div>
-						</div>
-						<div class="pull-right">
-							<div class="wrap_icon wrap_basket">
-								<div id="bxdynamic_header-basket-with-compare-block3_start" style="display:none"></div>
-								<div id="bxdynamic_header-basket-with-compare-block3_end" style="display:none"></div>
-							</div>
-						</div>
-						<div class="pull-right">
-							<div class="wrap_icon wrap_cabinet">
-
-								<div id="bxdynamic_header-auth-block3_start" style="display:none"></div>
-								<div id="bxdynamic_header-auth-block3_end" style="display:none"></div>
+							<!-- <div class="wrap_icon">
+									<button class="top-btn inline-search-show twosmallfont">
+										
+									</button>
+								</div> -->
+							<div class="hidesearchmobile">
+								<div id="title-search_fixed-2" class="bx-searchtitle theme-blue">
+					
+									<form action="/catalog/">
+										<div class="bx-input-group">
+											<input id="title-search-input_fixed-2" placeholder="" type="text" name="q" value=""
+												autocomplete="off" class="bx-form-control">
+											<span class="bx-input-group-btn">
+												<span class="bx-searchtitle-preloader " id="title-search_fixed-2_preloader_item"></span>
+												<button id="subserch" class="" type="button" name="s"></button>
+												<button type="button" class="search__close"></button>
+											</span>
+										</div>
+									</form>
+									<div class="title-search-result__bg"></div>
+								</div>
+					
+								<style>
+									.bx-searchtitle .bx-input-group .bx-form-control,
+									.bx_smart_searche .bx_item_block.all_result .all_result_button,
+									.bx-searchtitle .bx-input-group-btn button,
+									.bx_smart_searche .bx_item_block_hrline {
+										border-color: #ff6d00 !important;
+									}
+					
+									.bx_smart_searche .bx_item_block.all_result .all_result_button,
+									.bx-searchtitle .bx-input-group-btn button {
+										background-color: #ff6d00 !important;
+									}
+					
+									.bx_smart_searche .bx_item_block_href_category_name,
+									.bx_smart_searche .bx_item_block_item_name b,
+									.bx_smart_searche .bx_item_block_item_simple_name b {
+										color: #ff6d00 !important;
+									}
+								</style>
+					
 							</div>
 						</div>
 					</div>
@@ -12593,9 +12607,18 @@
 				<div class="search__block">
 					<div class="search__title">Популярные разделы</div>
 					<div class="search__links">
-						<a href="#" class="search__link">Смартфоны Apple</a>
-						<a href="#" class="search__link">Смартфоны Samsung</a>
-						<a href="#" class="search__link">Смартфоны Xiaomi</a>
+						<a href="#" class="search__link">
+							Смартфоны Apple
+							<span class="search__count">14</span>
+						</a>
+						<a href="#" class="search__link">
+							Смартфоны Samsung
+							<span class="search__count">2</span>
+						</a>
+						<a href="#" class="search__link">
+							Смартфоны Xiaomi
+							<span class="search__count">54</span>
+						</a>
 						<a href="#" class="search__link">Смартфоны Realme</a>
 						<a href="#" class="search__link">Смартфоны Honor</a>
 					</div>
@@ -12682,93 +12705,11 @@
 											<!--/noindex-->
 										</div>
 
-										<div class="wish_item text" data-item="57049" data-iblock="12">
-											<div class="value">
+										<div class="wish_item text added" data-item="57049" data-iblock="12">
+											<div class="value" style="display: none;">
 												<i></i>
 											</div>
-											<div class="value added">
-												<i></i>
-											</div>
-										</div>
-										<div class="compare_item_button">
-											<span class="compare_item to" data-iblock="12" data-item="57049">
-												<i></i>
-											</span>
-											<span class="compare_item in added" style="display: none;" data-iblock="12"
-												data-item="57049">
-												<i></i>
-											</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="searchGood">
-							<!-- скидки -->
-							<div class="sticker_wrap_mobile_list">
-								<div class="sticker sticker_installment sticker_bg_blue">
-									<!--  <a href="#credit_block"> -->
-									<div class="text_sticker">
-										До 24 месяцев
-									</div>
-									<!-- </a> -->
-								</div>
-							</div>
-							<!-- skidki -->
-							<div class="searchGood__wrap">
-								<div class="searchGood__view">
-									<!-- kartinki -->
-									<div class="searchGood__img">
-										<img src="https://via.placeholder.com/150" alt="">
-									</div><!-- kartinki -->
-									<div class="searchGood__info">
-										<div class="searchGood__brand">Harper</div>
-										<a href="/catalog/televizory_i_videotekhnika/televizory/harper-24r490t/"
-											class="searchGood__link"><b>Телевизор</b> Harper 24R490T
-										</a>
-										
-										<span class="bx_item_block_item_text ">
-											24" 1366x768 (HD), матрица VA, частота матрицы 50...
-										</span>
-									</div>
-								</div>
-								<div class="searchGood__bottom">
-									<div class="price_matrix_block">
-										<div class="price_matrix_wrapper ">
-											<div class="price" data-currency="BYN" data-value="635">
-												<span class="values_wrapper">
-													<span class="price_value">2 499 р.</span>
-													<span class="price_old">2 699 р.</span>
-													<!-- <span class="price_currency"> р.</span> -->
-												</span>
-											</div>
-										</div>
-										<span class="searchGood__brand">
-											<span class="searchGood__brand__val">34 руб./мес.</span> в рассрочку
-										</span>
-									</div>
-		
-									<div class="searchGood__btns">
-										<div id="_basket_actions" class="button_block wide">
-											<!--noindex-->
-											<span data-preorder="0" id="BasketCatalog57049"
-												class="small to-cart btn btn-default transition_bg animate-load"
-												data-value="635" data-currency="BYN" data-item="57049" data-float_ratio=""
-												data-ratio="1" data-bakset_div="bx_basket_div_57049" data-props=""
-												data-part_props="Y" data-add_props="Y" data-empty_props="" data-offers=""
-												data-iblockid="12" data-quantity="1"><i></i><span>В корзину</span></span><a
-												rel="nofollow" href="/basket/"
-												class="small in-cart btn btn-default transition_bg" data-item="57049"
-												style="display:none;"><i></i><span>В корзине</span></a>
-											<!--/noindex-->
-										</div>
-
-										<div class="wish_item text" data-item="57049" data-iblock="12">
-											<div class="value">
-												<i></i>
-											</div>
-											<div class="value added">
+											<div class="value added" style="display: block;">
 												<i></i>
 											</div>
 										</div>
@@ -12860,6 +12801,87 @@
 											</span>
 											<span class="compare_item in added" style="display: none;" data-iblock="12"
 												data-item="57049">
+												<i></i>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="searchGood">
+							<!-- скидки -->
+							<div class="sticker_wrap_mobile_list">
+								<div class="sticker sticker_installment sticker_bg_blue">
+									<!--  <a href="#credit_block"> -->
+									<div class="text_sticker">
+										До 24 месяцев
+									</div>
+									<!-- </a> -->
+								</div>
+							</div>
+							<!-- skidki -->
+							<div class="searchGood__wrap">
+								<div class="searchGood__view">
+									<!-- kartinki -->
+									<div class="searchGood__img">
+										<img src="https://via.placeholder.com/150" alt="">
+									</div><!-- kartinki -->
+									<div class="searchGood__info">
+										<div class="searchGood__brand">Harper</div>
+										<a href="/catalog/televizory_i_videotekhnika/televizory/harper-24r490t/"
+											class="searchGood__link"><b>Телевизор</b> Harper 24R490T
+										</a>
+										
+										<span class="bx_item_block_item_text ">
+											24" 1366x768 (HD), матрица VA, частота матрицы 50...
+										</span>
+									</div>
+								</div>
+								<div class="searchGood__bottom">
+									<div class="price_matrix_block">
+										<div class="price_matrix_wrapper ">
+											<div class="price" data-currency="BYN" data-value="635">
+												<span class="values_wrapper">
+													<span class="price_value">2 499 р.</span>
+													<span class="price_old">2 699 р.</span>
+													<!-- <span class="price_currency"> р.</span> -->
+												</span>
+											</div>
+										</div>
+										<span class="searchGood__brand">
+											<span class="searchGood__brand__val">34 руб./мес.</span> в рассрочку
+										</span>
+									</div>
+		
+									<div class="searchGood__btns">
+										<div id="_basket_actions" class="button_block wide">
+											<!--noindex-->
+											<span data-preorder="0" id="BasketCatalog57049"
+												class="small to-cart btn btn-default transition_bg animate-load unactive"
+												data-value="635" data-currency="BYN" data-item="57049" data-float_ratio=""
+												data-ratio="1" data-bakset_div="bx_basket_div_57049" data-props=""
+												data-part_props="Y" data-add_props="Y" data-empty_props="" data-offers=""
+												data-iblockid="12" data-quantity="1"><i></i><span>В корзину</span></span><a
+												rel="nofollow" href="/basket/"
+												class="small in-cart btn btn-default transition_bg" data-item="57049"
+												style="display:none;"><i></i><span>В корзине</span></a>
+											<!--/noindex-->
+										</div>
+
+										<div class="wish_item text" data-item="57049" data-iblock="12">
+											<div class="value">
+												<i></i>
+											</div>
+											<div class="value added">
+												<i></i>
+											</div>
+										</div>
+										<div class="compare_item_button">
+											<span class="compare_item to clicked" data-iblock="12" data-item="55442" style="display: none;">
+												<i></i>
+											</span>
+											<span class="compare_item in added" style="" data-iblock="12" data-item="55442">
 												<i></i>
 											</span>
 										</div>
@@ -13442,30 +13464,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="pagination">
-						<button type="button" class="pagination-arrow pagination-arrow-prev" disabled=""
-							aria-label="Предыдущая страница"></button>
-						<ul class="pagination__list">
-							<li class="current"><button type="button" data-page="1" class="pagination__btn">1</button></li>
-							<li><button type="button" data-page="2" class="pagination__btn">2</button></li>
-							<li><button type="button" data-page="3" class="pagination__btn">3</button></li>
-							<li><button type="button" data-page="4" class="pagination__btn">4</button></li>
-							<li><button type="button" data-page="5" class="pagination__btn">5</button></li>
-							<li><button type="button" data-page="6" class="pagination__btn">6</button></li>
-							<li><button type="button" data-page="7" class="pagination__btn">7</button></li>
-							<li><button type="button" data-page="8" class="pagination__btn">8</button></li>
-							<li><button type="button" data-page="9" class="pagination__btn">9</button></li>
-							<li><button type="button" data-page="10" class="pagination__btn">10</button></li>
-							<li><button type="button" data-page="11" class="pagination__btn">11</button></li>
-							<li><button type="button" data-page="12" class="pagination__btn">12</button></li>
-							<li><button type="button" data-page="13" class="pagination__btn">13</button></li>
-							<li><button type="button" data-page="14" class="pagination__btn">14</button></li>
-							<li><button type="button" data-page="15" class="pagination__btn">15</button></li>
-							<li><button type="button" data-page="16" class="pagination__btn">16</button></li>
-							<li><button type="button" data-page="17" class="pagination__btn">17</button></li>
-						</ul>
-						<button type="button" class="pagination-arrow pagination-arrow-next"
-							aria-label="Следующая страница"></button>
+					<div class="p-preload">
+						<div class="loading-dots">
+							<div class="loading-dots--dot"></div>
+							<div class="loading-dots--dot"></div>
+							<div class="loading-dots--dot"></div>
+						</div>
 					</div>
 		
 					
