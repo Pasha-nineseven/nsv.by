@@ -1,0 +1,329 @@
+.search-opened:not(.fixed-header) #title-search_fixed form{
+    border-radius: 0;
+    padding: 0;
+}
+
+.search-opened .title-search-result{
+    border-radius: 0;
+    top: 64px;
+    flex-wrap: wrap;
+    padding: 0;
+    background: #F8FAFC;
+}
+
+.s-wrap{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+.search__aside {
+    width: 260px;
+    margin-right: 80px;
+}
+
+.search__title{
+    color: #222;
+    margin: 0;
+}
+.search__links{
+    margin-top: 5px;
+    display: block;
+}
+.search__clear-btn {
+    color: #FF6D00;
+    border-bottom: 0!important;
+}
+.bx-searchtitle .bx-input-group .bx-form-control{
+    padding-left: 25px;
+}
+
+
+.all_result {
+    position: sticky!important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    z-index: 1;
+    background: white;
+    text-align: center;
+}
+
+
+.searchGood {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ECECEC;
+    display: block;
+}
+.searchGood:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+.searchGood__wrap{
+    display: flex;
+}
+.searchGood .sticker_wrap_mobile_list {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchGood__img {
+    width: 84px;
+    min-width: 84px;
+    height: 84px;
+    margin-right: 12px;
+    background: #fff;
+}
+.searchGood__img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.sticker.sticker_installment {
+    border-radius: 3px;
+    margin: 0 10px 10px 0;
+}
+.sticker.sticker_installment:last-child{
+    margin-right: 0;
+}
+.searchGood__link{
+    font-size: 14px!important;
+}
+
+.searchGood .compare_item_button, .searchGood .wish_item{
+    margin-right: 0;
+}
+.searchGood .button_block {
+    margin-right: 18px;
+}
+.searchGood .button_block .btn.btn-default{
+    border:0!important;
+}
+.searchGood .button_block .btn.btn-default:hover{
+    background: #F8AB0B;
+}
+.searchGood .button_block .btn.btn-default.unactive{
+    background: #4A4C4C;
+}
+
+.searchGood__view{
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+}
+.searchGood__info{
+    flex:1;
+    padding-right: 20px;
+}
+.searchGood .price_matrix_block *{
+    color: #222;
+    font-size: inherit;
+}
+.price_value{
+    font-size: 22px!important;
+    color: #222;
+}
+.price_old{
+    font-size: 14px!important;
+    text-decoration: line-through;
+    color: #222;
+    font-weight: normal;
+}
+.searchGood__bottom {
+    margin-top: 0;
+    align-items: center;
+    width: 50%;
+}
+.searchGood__brand__val{
+    color: #FF6D00!important;
+}
+.searchGood .price_matrix_block{
+    display: block;
+}
+.pagination{
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pagination__list{
+    flex-wrap:wrap;
+}
+
+.search__count{
+    font-size: 14px;
+    color: #888787;
+    margin-left: 5px;
+}
+
+@-webkit-keyframes dot-keyframes {
+    0% {
+      opacity: 0.4;
+      transform: scale(1, 1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2, 1.2);
+      background-color: #FF6D00;
+    }
+    100% {
+      opacity: 0.4;
+      transform: scale(1, 1);
+    }
+  }
+  @keyframes dot-keyframes {
+    0% {
+      opacity: 0.4;
+      transform: scale(1, 1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2, 1.2);
+      background-color: #FF6D00;
+    }
+    100% {
+      opacity: 0.4;
+      transform: scale(1, 1);
+    }
+  }
+  .loading-dots {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .loading-dots--dot {
+    -webkit-animation: dot-keyframes 1.5s infinite ease-in-out;
+            animation: dot-keyframes 1.5s infinite ease-in-out;
+    background-color: #222222;
+    border-radius: 10px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+  }
+  .loading-dots--dot:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .loading-dots--dot:nth-child(3) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .loading-dots--dot:last-child{
+    margin-right: 0;
+  }
+
+
+
+  .searchGood .wish_item i {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVCAYAAABCIB6VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGrSURBVHgBpZWPdYIwEMZJJmAEu4HdACcAJlAnUCconaB0guIEwAR1gzICI7iB/T765b2IiEjvvUj+3P1yd0lOE0jKslxYa3eXyyXRVIv+MU3TIugJdEPpbjBcoJ3RKozfod9Sx/Cnrus1JnN0w+BWGqytYHB2DhhjvgXsyxlr+ziOj0aKP4QC8IlvIQ8izL8J0MHZx1zpzR2w4YkMjDOsrWmL+VdTVdUXBhsCkyTZ9kL2vau4mRw44rt3UXj6BeF00Eo5kLdXwnzJ0xYtcVDMb/pQSd7l15jYyhtCmgFFB08VYgcN7ojHWFgvjHDMANCXMWhfCHa7LMcU74R+JXAuUrex8KRmTzfgX+IYTBk9ZsJbtAj3eTZctpFYlWWI3uFkc+C0oa0YKQ+8OzwdzkFhZMjVfgaUtlt3M4yvRCDy9CElPuPTk9DCrVlfEQs5C0m3o+FrL5dzoDcee57nAO+Cvwq3chXLg/LZFoKyomV9xiCYghrCGhH14VOgo2C+RBUgpsNVt0jVbRQ6Chbcr26NvuEj6EPwADyYAp0EFnxJOJ//M4VokuhfYrL8AvZ5QKG5CSbXAAAAAElFTkSuQmCC') center/cover no-repeat!important;
+    width: 22px;
+    height: 21px;
+    border-radius: 0;
+    margin-right: 12px;
+}
+.searchGood__btns .wish_item.added i {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAVCAYAAABCIB6VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHZSURBVHgBrZTfUQIxEMa/HPpOCdoBdnBUIFYAvCoIVMBRgSDq+OZRAVABdiAl0IE8y5/4ZS+HZ4ADTncmM0nm2192N8kqWNNNXECjgTVKdmvGMVB9hHCM2jx1DeorXF5wzDlGWKCjXsUPSoT3KFPU5TTvQqiYwkNRdcU5CmCFiQW6Nqe+qR4ZkBV+CFSjx0hCjjnO4XOvLQALxxfnOQw3e2u01BPehbFEwL2ywBe4UrqONy4qHCHTrjopJ6Mbcfg2gAHOGJnNYqOvMSgl2fc8KwYBva0qdFmvHCON6l2KoYyy4kLF1lJOU75rE7GWeT+q9y7TtyjwgAmVYwNFisU8L5F2fp9YvbCeOVwegibNI38qsyWjSrGdqTvGGvuRGFMT8dgu2virxQzeg8fbNQWfcfh8z5nh1tcX1gIjT1Jc4Qbm/WkEWeDiQ19hkGV+n1yeXA7QsmkEvNlmBqjxrVrW7yem7wj08GBFRfOrjoaC0ERf8ZJC9cx6a3SiBYbyfjNAI/ddTjUeoNi9oosoxh0rATXfNrSZdZhZ4DL2/7a69AjfhR8DTQdHPdd848Kmuy15kJLulgpNBVv4T3czcC1dLn8IehC8BT8i0pPMvA7W/FP67X+bRH6CfQMMFtKNIIYeKQAAAABJRU5ErkJggg==') center/cover no-repeat!important;
+}
+
+.searchGood .compare_item_button i {
+    width: 20px;
+    height: 20px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA+SURBVHgB7ZLBCQAwCAND9x8mG7b015dtRUEkB34PNQEMSM49+GAgmJrC8zUNT74ln7ehp3OmMAoJJZTwhQVh3Bify1amigAAAABJRU5ErkJggg==') center/cover no-repeat!important;
+    border-radius: 0;
+    margin-right: 12px;
+}
+.searchGood__btns .compare_item.added i{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA9SURBVHgB7ZI5CgAwCASH/Df/Lw3pUpkDAyI7YDuou+BgHZvDBY1gcgrX1xQ8eZf8vw1fOucKo5BQQglPGLVlE3/IyyLuAAAAAElFTkSuQmCC') center/cover no-repeat!important;
+}
+.compare_item{
+    display: inline-block;
+}
+
+
+.searchGood .compare_item_button:last-child i,
+.searchGood .wish_item:last-child i{
+    margin-right: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .search-opened .title-search-result {
+        left: 60px;
+        right: 60px;
+    }
+}
+
+@media (max-width: 1200px){
+    .search__aside {
+        width: 220px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:1100px){
+    .search__aside {
+        width: 190px;
+    }
+}
+
+
+@media (max-width: 992px){
+    .search-opened .title-search-result {
+        top: 122px;
+    }
+    .s-wrap {
+        display: block;
+        padding: 20px 20px 55px;
+    }
+    .searchGood .compare_item_button, .searchGood .wish_item {
+        background-color: transparent;
+        margin-right: 0;
+    }
+    .searchGood__btns {
+        margin-top: 0;
+    }
+    .searchGood__bottom {
+        flex-direction: inherit;
+    }
+    .search__aside {
+        width: 100%;
+        margin-right: 0;
+    }
+    .search__main {
+        flex-grow: initial;
+    }
+    .all_result {
+        position: fixed!important;
+    }
+    .all_result{
+        padding: 8px;
+    }
+    .searchGood .compare_item_button, .searchGood .wish_item {
+        width: auto;
+        height: auto;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+@media (max-width: 600px){
+    .searchGood__wrap{
+        flex-wrap:wrap;
+    }
+    .searchGood__view{
+        width: 100%;
+    }
+    .searchGood__info{
+        padding-right: 0;
+    }
+    .searchGood__bottom{
+        width: 100%;
+        margin-left: 96px;
+        flex-wrap: wrap;
+    }
+    .searchGood .price_matrix_block{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pagination__list {
+        justify-content: center;
+    }
+}
